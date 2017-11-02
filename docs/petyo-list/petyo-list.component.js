@@ -7,15 +7,25 @@ angular.
     controller: function PetyoListController() {
       this.todo = [
           {
-              subject: "AngularJS"
+              subject: "AngularJS",
+              complexity: 2,
+              complexityDes: 3     
           }, {
-              subject: "Angular 2+"
+              subject: "Angular 2+",
+              complexity: 3,
+              complexityDes: 2
           }, {
-              subject: "Node.js"
+              subject: "Node.js",
+              complexity: 4,
+              complexityDes: 1
           }, {
-              subject: "MongoDB"
+              subject: "Bootstrap",
+              complexity: 1,
+              complexityDes: 4
           }
           
       ];
+
+      this.order = "subject";
   }
 });

@@ -1,4 +1,21 @@
 body {
-  padding-top: 20px;
+  background: #35628b;
 }
+.container {
+  padding-top: 10px;
+  background: #ffffff;
+}
+.label-default {
+  line-height: 30px;
+  background: rgb(3, 94, 146);
+}
+.label-success {
+  line-height: 40px;
+  font-size: 0.9em;
+}
+.panel-footer {
+  height: 10vh;
+}
+
+
 

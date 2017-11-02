@@ -2,20 +2,42 @@
 <html lang="en" ng-app="phonecatApp">
   <head>
     <meta charset="utf-8">
-    <title>Google Phone Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Phone Gallery</title>    
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="app.css" />
     <script src="bower_components/angular/angular.js"></script>
     <script src="app.module.js"></script>
     <script src="phone-list/phone-list.module.js"></script>
     <script src="phone-list/phone-list.component.js"></script>
+    <script src="petyo-list/petyo-list.module.js"></script>
+    <script src="petyo-list/petyo-list.component.js"></script>
   </head>
   <body>
 
     <!-- Use a custom component to render a list of phones -->
-    <phone-list></phone-list>
-
-  
+    <!--phone-list></phone-list-->
+    
+    
+    <div class="container">
+        <petyo-list></petyo-list>
+        <br>
+        <br>
+        <br>
+    </div>
+    
+    
+    
+    
+    <div class="container">
+      <div class="panel panel-default">
+          <div class="panel-footer">
+            <small>Powered by <a href="https://github.com/petyoMitkov">Petyo Mitkov</a></small>
+          </div>
+      </div>
+    </div>
+    
+    
 
   </body>
 </html>
