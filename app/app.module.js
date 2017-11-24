@@ -2,7 +2,7 @@
 
 // Define the `phonecatApp` module
 angular.module('phonecatApp', [
-  'ngRoute',
-  'phoneDetail',
-  'phoneList'
+  // ...which depends on the `phoneList` module
+  'phoneList',
+  'petyoList'
 ]);

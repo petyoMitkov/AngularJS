@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-md-2">
       <!--Sidebar content-->
-
+     
       <p>
         Search:
         <input ng-model="$ctrl.query" />
@@ -19,13 +19,10 @@
     </div>
     <div class="col-md-10">
       <!--Body content-->
-
+     
       <ul class="phones">
-        <li ng-repeat="phone in $ctrl.phones | filter:$ctrl.query | orderBy:$ctrl.orderProp" class="thumbnail">
-          <a href="#!/phones/{{phone.id}}" class="thumb">
-            <img ng-src="{{phone.imageUrl}}" alt="{{phone.name}}" />
-          </a>
-          <a href="#!/phones/{{phone.id}}">{{phone.name}}</a>
+        <li ng-repeat="phone in $ctrl.phones | filter:$ctrl.query | orderBy:$ctrl.orderProp">
+          <span>{{phone.name}}</span>
           <p>{{phone.snippet}}</p>
         </li>
       </ul>
