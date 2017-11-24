@@ -15,7 +15,7 @@
     "karma-jasmine": "^0.3.8",
     "protractor": "^4.0.9"
   },
-  "scripts": {
+  "scripts": { 
     "postinstall": "bower install",
 
     "prestart": "npm install",
